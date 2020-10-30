@@ -1,0 +1,1208 @@
+[
+  {
+    "date": 0,
+    "functions": [
+      {
+        "self": 1,
+        "parent": 0,
+        "file": "",
+        "name": "(root)",
+        "line": 0,
+        "count": 0
+      },
+      {
+        "self": 2,
+        "parent": 1,
+        "file": "",
+        "name": "(program)",
+        "line": 0,
+        "count": 2792
+      },
+      {
+        "self": 3,
+        "parent": 1,
+        "file": "internal/timers.js",
+        "name": "processTimers",
+        "line": 477,
+        "count": 1
+      },
+      {
+        "self": 4,
+        "parent": 3,
+        "file": "internal/timers.js",
+        "name": "listOnTimeout",
+        "line": 497,
+        "count": 0
+      },
+      {
+        "self": 5,
+        "parent": 4,
+        "file": "/project/node_modules/async-listener/glue.js",
+        "name": "",
+        "line": 162,
+        "count": 0
+      },
+      {
+        "self": 6,
+        "parent": 5,
+        "file": "/project/node_modules/appmetrics-dash/lib/appmetrics-dash.js",
+        "name": "emitData",
+        "line": 442,
+        "count": 0
+      },
+      {
+        "self": 7,
+        "parent": 6,
+        "file": "/project/node_modules/socket.io/lib/index.js",
+        "name": "Server.<computed>",
+        "line": 504,
+        "count": 0
+      },
+      {
+        "self": 8,
+        "parent": 7,
+        "file": "/project/node_modules/appmetrics/lib/aspect.js",
+        "name": "newFunc",
+        "line": 79,
+        "count": 0
+      },
+      {
+        "self": 9,
+        "parent": 8,
+        "file": "/project/node_modules/appmetrics/probes/socketio-probe.js",
+        "name": "",
+        "line": 46,
+        "count": 0
+      },
+      {
+        "self": 10,
+        "parent": 9,
+        "file": "/project/node_modules/appmetrics/lib/probe.js",
+        "name": "Probe.requestProbeStart",
+        "line": 88,
+        "count": 1
+      },
+      {
+        "self": 11,
+        "parent": 5,
+        "file": "/project/node_modules/async-listener/glue.js",
+        "name": "union",
+        "line": 60,
+        "count": 1
+      },
+      {
+        "self": 12,
+        "parent": 5,
+        "file": "/project/user-app/app.js",
+        "name": "",
+        "line": 10,
+        "count": 0
+      },
+      {
+        "self": 13,
+        "parent": 12,
+        "file": "/project/node_modules/express/lib/response.js",
+        "name": "send",
+        "line": 107,
+        "count": 0
+      },
+      {
+        "self": 14,
+        "parent": 13,
+        "file": "/project/node_modules/express/lib/response.js",
+        "name": "res.get",
+        "line": 788,
+        "count": 1
+      },
+      {
+        "self": 15,
+        "parent": 4,
+        "file": "internal/timers.js",
+        "name": "insert",
+        "line": 340,
+        "count": 0
+      },
+      {
+        "self": 16,
+        "parent": 15,
+        "file": "internal/linkedlist.js",
+        "name": "append",
+        "line": 29,
+        "count": 1
+      },
+      {
+        "self": 17,
+        "parent": 3,
+        "file": "internal/priority_queue.js",
+        "name": "peek",
+        "line": 45,
+        "count": 1
+      },
+      {
+        "self": 18,
+        "parent": 1,
+        "file": "internal/process/task_queues.js",
+        "name": "processTicksAndRejections",
+        "line": 69,
+        "count": 0
+      },
+      {
+        "self": 19,
+        "parent": 18,
+        "file": "/project/node_modules/async-listener/glue.js",
+        "name": "",
+        "line": 162,
+        "count": 0
+      },
+      {
+        "self": 20,
+        "parent": 19,
+        "file": "_stream_writable.js",
+        "name": "afterWriteTick",
+        "line": 475,
+        "count": 0
+      },
+      {
+        "self": 21,
+        "parent": 20,
+        "file": "_stream_writable.js",
+        "name": "afterWrite",
+        "line": 480,
+        "count": 0
+      },
+      {
+        "self": 22,
+        "parent": 21,
+        "file": "_stream_writable.js",
+        "name": "onCorkedFinish",
+        "line": 667,
+        "count": 0
+      },
+      {
+        "self": 23,
+        "parent": 22,
+        "file": "/project/node_modules/engine.io/lib/transports/websocket.js",
+        "name": "onEnd",
+        "line": 117,
+        "count": 0
+      },
+      {
+        "self": 24,
+        "parent": 23,
+        "file": "domain.js",
+        "name": "EventEmitter.emit",
+        "line": 471,
+        "count": 0
+      },
+      {
+        "self": 25,
+        "parent": 24,
+        "file": "events.js",
+        "name": "emit",
+        "line": 263,
+        "count": 0
+      },
+      {
+        "self": 26,
+        "parent": 25,
+        "file": "/project/node_modules/engine.io/lib/socket.js",
+        "name": "Socket.flush",
+        "line": 416,
+        "count": 0
+      },
+      {
+        "self": 27,
+        "parent": 26,
+        "file": "/project/node_modules/engine.io/lib/transports/websocket.js",
+        "name": "WebSocket.send",
+        "line": 89,
+        "count": 0
+      },
+      {
+        "self": 28,
+        "parent": 27,
+        "file": "/project/node_modules/engine.io-parser/lib/index.js",
+        "name": "exports.encodePacket",
+        "line": 55,
+        "count": 1
+      },
+      {
+        "self": 29,
+        "parent": 28,
+        "file": "/project/node_modules/engine.io/lib/transports/websocket.js",
+        "name": "send",
+        "line": 97,
+        "count": 0
+      },
+      {
+        "self": 30,
+        "parent": 29,
+        "file": "buffer.js",
+        "name": "byteLength",
+        "line": 721,
+        "count": 0
+      },
+      {
+        "self": 31,
+        "parent": 30,
+        "file": "",
+        "name": "byteLengthUtf8",
+        "line": 0,
+        "count": 1
+      },
+      {
+        "self": 32,
+        "parent": 29,
+        "file": "/project/node_modules/ws/lib/websocket.js",
+        "name": "send",
+        "line": 326,
+        "count": 0
+      },
+      {
+        "self": 33,
+        "parent": 32,
+        "file": "/project/node_modules/ws/lib/sender.js",
+        "name": "send",
+        "line": 252,
+        "count": 0
+      },
+      {
+        "self": 34,
+        "parent": 33,
+        "file": "/project/node_modules/ws/lib/sender.js",
+        "name": "dispatch",
+        "line": 313,
+        "count": 0
+      },
+      {
+        "self": 35,
+        "parent": 34,
+        "file": "/project/node_modules/ws/lib/sender.js",
+        "name": "sendFrame",
+        "line": 378,
+        "count": 0
+      },
+      {
+        "self": 36,
+        "parent": 35,
+        "file": "_stream_writable.js",
+        "name": "Writable.uncork",
+        "line": 328,
+        "count": 0
+      },
+      {
+        "self": 37,
+        "parent": 36,
+        "file": "_stream_writable.js",
+        "name": "clearBuffer",
+        "line": 497,
+        "count": 0
+      },
+      {
+        "self": 38,
+        "parent": 37,
+        "file": "_stream_writable.js",
+        "name": "doWrite",
+        "line": 393,
+        "count": 0
+      },
+      {
+        "self": 39,
+        "parent": 38,
+        "file": "net.js",
+        "name": "Socket._writev",
+        "line": 792,
+        "count": 0
+      },
+      {
+        "self": 40,
+        "parent": 39,
+        "file": "net.js",
+        "name": "Socket._writeGeneric",
+        "line": 760,
+        "count": 0
+      },
+      {
+        "self": 41,
+        "parent": 40,
+        "file": "internal/stream_base_commons.js",
+        "name": "writevGeneric",
+        "line": 116,
+        "count": 0
+      },
+      {
+        "self": 42,
+        "parent": 41,
+        "file": "",
+        "name": "writev",
+        "line": 0,
+        "count": 1
+      },
+      {
+        "self": 43,
+        "parent": 35,
+        "file": "_stream_writable.js",
+        "name": "Writable.write",
+        "line": 291,
+        "count": 0
+      },
+      {
+        "self": 44,
+        "parent": 43,
+        "file": "_stream_writable.js",
+        "name": "writeOrBuffer",
+        "line": 355,
+        "count": 1
+      },
+      {
+        "self": 45,
+        "parent": 22,
+        "file": "_http_outgoing.js",
+        "name": "onFinish",
+        "line": 721,
+        "count": 0
+      },
+      {
+        "self": 46,
+        "parent": 45,
+        "file": "domain.js",
+        "name": "EventEmitter.emit",
+        "line": 471,
+        "count": 0
+      },
+      {
+        "self": 47,
+        "parent": 46,
+        "file": "events.js",
+        "name": "emit",
+        "line": 263,
+        "count": 1
+      },
+      {
+        "self": 48,
+        "parent": 19,
+        "file": "/project/node_modules/async-listener/glue.js",
+        "name": "union",
+        "line": 60,
+        "count": 1
+      },
+      {
+        "self": 49,
+        "parent": 19,
+        "file": "_stream_readable.js",
+        "name": "endReadableNT",
+        "line": 1214,
+        "count": 0
+      },
+      {
+        "self": 50,
+        "parent": 49,
+        "file": "domain.js",
+        "name": "EventEmitter.emit",
+        "line": 471,
+        "count": 0
+      },
+      {
+        "self": 51,
+        "parent": 50,
+        "file": "events.js",
+        "name": "emit",
+        "line": 263,
+        "count": 1
+      },
+      {
+        "self": 52,
+        "parent": 51,
+        "file": "net.js",
+        "name": "onReadableStreamEnd",
+        "line": 629,
+        "count": 0
+      },
+      {
+        "self": 53,
+        "parent": 52,
+        "file": "internal/streams/destroy.js",
+        "name": "destroy",
+        "line": 5,
+        "count": 0
+      },
+      {
+        "self": 54,
+        "parent": 53,
+        "file": "net.js",
+        "name": "Socket._destroy",
+        "line": 652,
+        "count": 0
+      },
+      {
+        "self": 55,
+        "parent": 54,
+        "file": "timers.js",
+        "name": "clearTimeout",
+        "line": 158,
+        "count": 0
+      },
+      {
+        "self": 56,
+        "parent": 55,
+        "file": "timers.js",
+        "name": "unenroll",
+        "line": 66,
+        "count": 1
+      },
+      {
+        "self": 57,
+        "parent": 19,
+        "file": "_stream_readable.js",
+        "name": "resume_",
+        "line": 979,
+        "count": 0
+      },
+      {
+        "self": 58,
+        "parent": 57,
+        "file": "_stream_readable.js",
+        "name": "Readable.read",
+        "line": 377,
+        "count": 0
+      },
+      {
+        "self": 59,
+        "parent": 58,
+        "file": "_stream_readable.js",
+        "name": "endReadable",
+        "line": 1204,
+        "count": 0
+      },
+      {
+        "self": 60,
+        "parent": 59,
+        "file": "/project/node_modules/async-listener/index.js",
+        "name": "",
+        "line": 626,
+        "count": 0
+      },
+      {
+        "self": 61,
+        "parent": 60,
+        "file": "/project/node_modules/async-listener/index.js",
+        "name": "fallback",
+        "line": 612,
+        "count": 0
+      },
+      {
+        "self": 62,
+        "parent": 61,
+        "file": "/project/node_modules/async-listener/glue.js",
+        "name": "wrapCallback",
+        "line": 391,
+        "count": 1
+      },
+      {
+        "self": 63,
+        "parent": 18,
+        "file": "internal/async_hooks.js",
+        "name": "emitBeforeScript",
+        "line": 364,
+        "count": 0
+      },
+      {
+        "self": 64,
+        "parent": 63,
+        "file": "internal/async_hooks.js",
+        "name": "pushAsyncContext",
+        "line": 404,
+        "count": 1
+      },
+      {
+        "self": 65,
+        "parent": 1,
+        "file": "domain.js",
+        "name": "topLevelDomainCallback",
+        "line": 130,
+        "count": 0
+      },
+      {
+        "self": 66,
+        "parent": 65,
+        "file": "internal/timers.js",
+        "name": "processImmediate",
+        "line": 413,
+        "count": 1
+      },
+      {
+        "self": 67,
+        "parent": 1,
+        "file": "_http_common.js",
+        "name": "parserOnHeadersComplete",
+        "line": 74,
+        "count": 0
+      },
+      {
+        "self": 68,
+        "parent": 67,
+        "file": "_http_server.js",
+        "name": "parserOnIncoming",
+        "line": 721,
+        "count": 1
+      },
+      {
+        "self": 69,
+        "parent": 68,
+        "file": "domain.js",
+        "name": "EventEmitter.emit",
+        "line": 471,
+        "count": 0
+      },
+      {
+        "self": 70,
+        "parent": 69,
+        "file": "events.js",
+        "name": "emit",
+        "line": 263,
+        "count": 0
+      },
+      {
+        "self": 71,
+        "parent": 70,
+        "file": "/project/node_modules/socket.io/lib/index.js",
+        "name": "",
+        "line": 336,
+        "count": 0
+      },
+      {
+        "self": 72,
+        "parent": 71,
+        "file": "/project/node_modules/appmetrics/lib/aspect.js",
+        "name": "args.<computed>",
+        "line": 25,
+        "count": 0
+      },
+      {
+        "self": 73,
+        "parent": 72,
+        "file": "/project/node_modules/ibmapm-embed/appmetrics-zipkin/lib/aspect.js",
+        "name": "args.<computed>",
+        "line": 26,
+        "count": 0
+      },
+      {
+        "self": 74,
+        "parent": 73,
+        "file": "/project/node_modules/engine.io/lib/server.js",
+        "name": "",
+        "line": 464,
+        "count": 0
+      },
+      {
+        "self": 75,
+        "parent": 74,
+        "file": "/project/node_modules/express/lib/express.js",
+        "name": "app",
+        "line": 38,
+        "count": 0
+      },
+      {
+        "self": 76,
+        "parent": 75,
+        "file": "/project/node_modules/express/lib/application.js",
+        "name": "handle",
+        "line": 158,
+        "count": 0
+      },
+      {
+        "self": 77,
+        "parent": 76,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "handle",
+        "line": 136,
+        "count": 0
+      },
+      {
+        "self": 78,
+        "parent": 77,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "next",
+        "line": 176,
+        "count": 0
+      },
+      {
+        "self": 79,
+        "parent": 78,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "process_params",
+        "line": 327,
+        "count": 0
+      },
+      {
+        "self": 80,
+        "parent": 79,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "",
+        "line": 275,
+        "count": 0
+      },
+      {
+        "self": 81,
+        "parent": 80,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "trim_prefix",
+        "line": 288,
+        "count": 0
+      },
+      {
+        "self": 82,
+        "parent": 81,
+        "file": "/project/node_modules/express/lib/router/layer.js",
+        "name": "handle",
+        "line": 86,
+        "count": 0
+      },
+      {
+        "self": 83,
+        "parent": 82,
+        "file": "/project/node_modules/express/lib/middleware/query.js",
+        "name": "query",
+        "line": 39,
+        "count": 0
+      },
+      {
+        "self": 84,
+        "parent": 83,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "next",
+        "line": 176,
+        "count": 0
+      },
+      {
+        "self": 85,
+        "parent": 84,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "process_params",
+        "line": 327,
+        "count": 0
+      },
+      {
+        "self": 86,
+        "parent": 85,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "",
+        "line": 275,
+        "count": 0
+      },
+      {
+        "self": 87,
+        "parent": 86,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "trim_prefix",
+        "line": 288,
+        "count": 0
+      },
+      {
+        "self": 88,
+        "parent": 87,
+        "file": "/project/node_modules/express/lib/router/layer.js",
+        "name": "handle",
+        "line": 86,
+        "count": 0
+      },
+      {
+        "self": 89,
+        "parent": 88,
+        "file": "/project/node_modules/express/lib/middleware/init.js",
+        "name": "expressInit",
+        "line": 29,
+        "count": 0
+      },
+      {
+        "self": 90,
+        "parent": 89,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "next",
+        "line": 176,
+        "count": 0
+      },
+      {
+        "self": 91,
+        "parent": 90,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "process_params",
+        "line": 327,
+        "count": 0
+      },
+      {
+        "self": 92,
+        "parent": 91,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "",
+        "line": 275,
+        "count": 0
+      },
+      {
+        "self": 93,
+        "parent": 92,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "trim_prefix",
+        "line": 288,
+        "count": 0
+      },
+      {
+        "self": 94,
+        "parent": 93,
+        "file": "/project/node_modules/express/lib/router/layer.js",
+        "name": "handle",
+        "line": 86,
+        "count": 0
+      },
+      {
+        "self": 95,
+        "parent": 94,
+        "file": "/project/server.js",
+        "name": "requestTimer",
+        "line": 16,
+        "count": 0
+      },
+      {
+        "self": 96,
+        "parent": 95,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "next",
+        "line": 176,
+        "count": 0
+      },
+      {
+        "self": 97,
+        "parent": 96,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "process_params",
+        "line": 327,
+        "count": 0
+      },
+      {
+        "self": 98,
+        "parent": 97,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "",
+        "line": 275,
+        "count": 0
+      },
+      {
+        "self": 99,
+        "parent": 98,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "trim_prefix",
+        "line": 288,
+        "count": 0
+      },
+      {
+        "self": 100,
+        "parent": 99,
+        "file": "/project/node_modules/express/lib/router/layer.js",
+        "name": "handle",
+        "line": 86,
+        "count": 0
+      },
+      {
+        "self": 101,
+        "parent": 100,
+        "file": "/project/node_modules/pino-http/logger.js",
+        "name": "loggingMiddleware",
+        "line": 83,
+        "count": 0
+      },
+      {
+        "self": 102,
+        "parent": 101,
+        "file": "/project/node_modules/pino/lib/proto.js",
+        "name": "child",
+        "line": 70,
+        "count": 0
+      },
+      {
+        "self": 103,
+        "parent": 102,
+        "file": "/project/node_modules/pino/lib/levels.js",
+        "name": "setLevel",
+        "line": 80,
+        "count": 1
+      },
+      {
+        "self": 104,
+        "parent": 101,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "next",
+        "line": 176,
+        "count": 0
+      },
+      {
+        "self": 105,
+        "parent": 104,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "process_params",
+        "line": 327,
+        "count": 0
+      },
+      {
+        "self": 106,
+        "parent": 105,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "",
+        "line": 275,
+        "count": 0
+      },
+      {
+        "self": 107,
+        "parent": 106,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "trim_prefix",
+        "line": 288,
+        "count": 0
+      },
+      {
+        "self": 108,
+        "parent": 107,
+        "file": "/project/node_modules/express/lib/router/layer.js",
+        "name": "handle",
+        "line": 86,
+        "count": 0
+      },
+      {
+        "self": 109,
+        "parent": 108,
+        "file": "/project/node_modules/express/lib/application.js",
+        "name": "mounted_app",
+        "line": 228,
+        "count": 1
+      },
+      {
+        "self": 110,
+        "parent": 109,
+        "file": "/project/node_modules/express/lib/application.js",
+        "name": "handle",
+        "line": 158,
+        "count": 0
+      },
+      {
+        "self": 111,
+        "parent": 110,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "handle",
+        "line": 136,
+        "count": 0
+      },
+      {
+        "self": 112,
+        "parent": 111,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "next",
+        "line": 176,
+        "count": 0
+      },
+      {
+        "self": 113,
+        "parent": 112,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "process_params",
+        "line": 327,
+        "count": 0
+      },
+      {
+        "self": 114,
+        "parent": 113,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "",
+        "line": 275,
+        "count": 0
+      },
+      {
+        "self": 115,
+        "parent": 114,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "trim_prefix",
+        "line": 288,
+        "count": 0
+      },
+      {
+        "self": 116,
+        "parent": 115,
+        "file": "/project/node_modules/express/lib/router/layer.js",
+        "name": "handle",
+        "line": 86,
+        "count": 0
+      },
+      {
+        "self": 117,
+        "parent": 116,
+        "file": "/project/node_modules/express/lib/middleware/query.js",
+        "name": "query",
+        "line": 39,
+        "count": 0
+      },
+      {
+        "self": 118,
+        "parent": 117,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "next",
+        "line": 176,
+        "count": 0
+      },
+      {
+        "self": 119,
+        "parent": 118,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "process_params",
+        "line": 327,
+        "count": 0
+      },
+      {
+        "self": 120,
+        "parent": 119,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "",
+        "line": 275,
+        "count": 0
+      },
+      {
+        "self": 121,
+        "parent": 120,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "trim_prefix",
+        "line": 288,
+        "count": 0
+      },
+      {
+        "self": 122,
+        "parent": 121,
+        "file": "/project/node_modules/express/lib/router/layer.js",
+        "name": "handle",
+        "line": 86,
+        "count": 0
+      },
+      {
+        "self": 123,
+        "parent": 122,
+        "file": "/project/node_modules/express/lib/middleware/init.js",
+        "name": "expressInit",
+        "line": 29,
+        "count": 0
+      },
+      {
+        "self": 124,
+        "parent": 123,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "next",
+        "line": 176,
+        "count": 0
+      },
+      {
+        "self": 125,
+        "parent": 124,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "process_params",
+        "line": 327,
+        "count": 0
+      },
+      {
+        "self": 126,
+        "parent": 125,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "",
+        "line": 275,
+        "count": 0
+      },
+      {
+        "self": 127,
+        "parent": 126,
+        "file": "/project/node_modules/express/lib/router/layer.js",
+        "name": "handle",
+        "line": 86,
+        "count": 0
+      },
+      {
+        "self": 128,
+        "parent": 127,
+        "file": "/project/node_modules/express/lib/router/route.js",
+        "name": "dispatch",
+        "line": 98,
+        "count": 0
+      },
+      {
+        "self": 129,
+        "parent": 128,
+        "file": "/project/node_modules/express/lib/router/route.js",
+        "name": "next",
+        "line": 114,
+        "count": 0
+      },
+      {
+        "self": 130,
+        "parent": 129,
+        "file": "/project/node_modules/express/lib/router/layer.js",
+        "name": "handle",
+        "line": 86,
+        "count": 0
+      },
+      {
+        "self": 131,
+        "parent": 130,
+        "file": "/project/user-app/app.js",
+        "name": "",
+        "line": 6,
+        "count": 0
+      },
+      {
+        "self": 132,
+        "parent": 131,
+        "file": "/project/node_modules/async-listener/index.js",
+        "name": "",
+        "line": 650,
+        "count": 0
+      },
+      {
+        "self": 133,
+        "parent": 132,
+        "file": "/project/node_modules/async-listener/index.js",
+        "name": "fallback",
+        "line": 612,
+        "count": 0
+      },
+      {
+        "self": 134,
+        "parent": 133,
+        "file": "timers.js",
+        "name": "setTimeout",
+        "line": 120,
+        "count": 0
+      },
+      {
+        "self": 135,
+        "parent": 134,
+        "file": "internal/timers.js",
+        "name": "insert",
+        "line": 340,
+        "count": 1
+      },
+      {
+        "self": 136,
+        "parent": 1,
+        "file": "",
+        "name": "(garbage collector)",
+        "line": 0,
+        "count": 2
+      },
+      {
+        "self": 137,
+        "parent": 1,
+        "file": "_http_common.js",
+        "name": "parserOnMessageComplete",
+        "line": 138,
+        "count": 0
+      },
+      {
+        "self": 138,
+        "parent": 137,
+        "file": "_stream_readable.js",
+        "name": "Readable.push",
+        "line": 211,
+        "count": 0
+      },
+      {
+        "self": 139,
+        "parent": 138,
+        "file": "_stream_readable.js",
+        "name": "readableAddChunk",
+        "line": 220,
+        "count": 1
+      },
+      {
+        "self": 140,
+        "parent": 1,
+        "file": "/project/node_modules/appmetrics/appmetrics-api.js",
+        "name": "events",
+        "line": 238,
+        "count": 0
+      },
+      {
+        "self": 141,
+        "parent": 140,
+        "file": "/project/node_modules/appmetrics/appmetrics-api.js",
+        "name": "raiseEvent",
+        "line": 32,
+        "count": 0
+      },
+      {
+        "self": 142,
+        "parent": 141,
+        "file": "/project/node_modules/appmetrics/appmetrics-api.js",
+        "name": "formatLoop",
+        "line": 208,
+        "count": 0
+      },
+      {
+        "self": 143,
+        "parent": 142,
+        "file": "/project/node_modules/appmetrics/appmetrics-api.js",
+        "name": "",
+        "line": 214,
+        "count": 1
+      },
+      {
+        "self": 144,
+        "parent": 1,
+        "file": "/project/node_modules/async-listener/glue.js",
+        "name": "",
+        "line": 162,
+        "count": 0
+      },
+      {
+        "self": 145,
+        "parent": 144,
+        "file": "net.js",
+        "name": "onconnection",
+        "line": 1527,
+        "count": 0
+      },
+      {
+        "self": 146,
+        "parent": 145,
+        "file": "domain.js",
+        "name": "EventEmitter.emit",
+        "line": 471,
+        "count": 0
+      },
+      {
+        "self": 147,
+        "parent": 146,
+        "file": "events.js",
+        "name": "emit",
+        "line": 263,
+        "count": 0
+      },
+      {
+        "self": 148,
+        "parent": 147,
+        "file": "_http_server.js",
+        "name": "connectionListener",
+        "line": 395,
+        "count": 0
+      },
+      {
+        "self": 149,
+        "parent": 148,
+        "file": "internal/async_hooks.js",
+        "name": "defaultTriggerAsyncIdScope",
+        "line": 314,
+        "count": 0
+      },
+      {
+        "self": 150,
+        "parent": 149,
+        "file": "_http_server.js",
+        "name": "connectionListenerInternal",
+        "line": 401,
+        "count": 1
+      }
+    ],
+    "time": 1604047418617
+  }
+]

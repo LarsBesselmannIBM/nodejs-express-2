@@ -1,0 +1,1982 @@
+[
+  {
+    "date": 0,
+    "functions": [
+      {
+        "self": 745,
+        "parent": 0,
+        "file": "",
+        "name": "(root)",
+        "line": 0,
+        "count": 0
+      },
+      {
+        "self": 746,
+        "parent": 745,
+        "file": "",
+        "name": "(program)",
+        "line": 0,
+        "count": 2906
+      },
+      {
+        "self": 747,
+        "parent": 745,
+        "file": "internal/timers.js",
+        "name": "processTimers",
+        "line": 477,
+        "count": 1
+      },
+      {
+        "self": 748,
+        "parent": 747,
+        "file": "internal/timers.js",
+        "name": "listOnTimeout",
+        "line": 497,
+        "count": 3
+      },
+      {
+        "self": 749,
+        "parent": 748,
+        "file": "/project/node_modules/async-listener/glue.js",
+        "name": "",
+        "line": 162,
+        "count": 0
+      },
+      {
+        "self": 750,
+        "parent": 749,
+        "file": "/project/node_modules/appmetrics-dash/lib/appmetrics-dash.js",
+        "name": "emitData",
+        "line": 442,
+        "count": 1
+      },
+      {
+        "self": 751,
+        "parent": 748,
+        "file": "internal/priority_queue.js",
+        "name": "shift",
+        "line": 118,
+        "count": 0
+      },
+      {
+        "self": 752,
+        "parent": 751,
+        "file": "internal/priority_queue.js",
+        "name": "removeAt",
+        "line": 93,
+        "count": 0
+      },
+      {
+        "self": 753,
+        "parent": 752,
+        "file": "internal/priority_queue.js",
+        "name": "percolateDown",
+        "line": 49,
+        "count": 0
+      },
+      {
+        "self": 754,
+        "parent": 753,
+        "file": "internal/timers.js",
+        "name": "setPosition",
+        "line": 403,
+        "count": 1
+      },
+      {
+        "self": 755,
+        "parent": 748,
+        "file": "internal/async_hooks.js",
+        "name": "emitBeforeScript",
+        "line": 364,
+        "count": 0
+      },
+      {
+        "self": 756,
+        "parent": 755,
+        "file": "internal/async_hooks.js",
+        "name": "hasHooks",
+        "line": 329,
+        "count": 1
+      },
+      {
+        "self": 757,
+        "parent": 745,
+        "file": "internal/process/task_queues.js",
+        "name": "processTicksAndRejections",
+        "line": 69,
+        "count": 0
+      },
+      {
+        "self": 758,
+        "parent": 757,
+        "file": "/project/node_modules/async-listener/glue.js",
+        "name": "",
+        "line": 162,
+        "count": 0
+      },
+      {
+        "self": 759,
+        "parent": 758,
+        "file": "_stream_writable.js",
+        "name": "afterWriteTick",
+        "line": 475,
+        "count": 0
+      },
+      {
+        "self": 760,
+        "parent": 759,
+        "file": "_stream_writable.js",
+        "name": "afterWrite",
+        "line": 480,
+        "count": 0
+      },
+      {
+        "self": 761,
+        "parent": 760,
+        "file": "_stream_writable.js",
+        "name": "onCorkedFinish",
+        "line": 667,
+        "count": 0
+      },
+      {
+        "self": 762,
+        "parent": 761,
+        "file": "/project/node_modules/engine.io/lib/transports/websocket.js",
+        "name": "onEnd",
+        "line": 117,
+        "count": 0
+      },
+      {
+        "self": 763,
+        "parent": 762,
+        "file": "domain.js",
+        "name": "EventEmitter.emit",
+        "line": 471,
+        "count": 0
+      },
+      {
+        "self": 764,
+        "parent": 763,
+        "file": "events.js",
+        "name": "emit",
+        "line": 263,
+        "count": 0
+      },
+      {
+        "self": 765,
+        "parent": 764,
+        "file": "/project/node_modules/engine.io/lib/socket.js",
+        "name": "Socket.flush",
+        "line": 416,
+        "count": 0
+      },
+      {
+        "self": 766,
+        "parent": 765,
+        "file": "/project/node_modules/engine.io/lib/transports/websocket.js",
+        "name": "WebSocket.send",
+        "line": 89,
+        "count": 0
+      },
+      {
+        "self": 767,
+        "parent": 766,
+        "file": "/project/node_modules/engine.io-parser/lib/index.js",
+        "name": "exports.encodePacket",
+        "line": 55,
+        "count": 0
+      },
+      {
+        "self": 768,
+        "parent": 767,
+        "file": "/project/node_modules/engine.io/lib/transports/websocket.js",
+        "name": "send",
+        "line": 97,
+        "count": 0
+      },
+      {
+        "self": 769,
+        "parent": 768,
+        "file": "buffer.js",
+        "name": "byteLength",
+        "line": 721,
+        "count": 0
+      },
+      {
+        "self": 770,
+        "parent": 769,
+        "file": "",
+        "name": "byteLengthUtf8",
+        "line": 0,
+        "count": 1
+      },
+      {
+        "self": 771,
+        "parent": 768,
+        "file": "/project/node_modules/ws/lib/websocket.js",
+        "name": "send",
+        "line": 326,
+        "count": 0
+      },
+      {
+        "self": 772,
+        "parent": 771,
+        "file": "/project/node_modules/ws/lib/sender.js",
+        "name": "send",
+        "line": 252,
+        "count": 0
+      },
+      {
+        "self": 773,
+        "parent": 772,
+        "file": "/project/node_modules/ws/lib/sender.js",
+        "name": "dispatch",
+        "line": 313,
+        "count": 0
+      },
+      {
+        "self": 774,
+        "parent": 773,
+        "file": "/project/node_modules/ws/lib/sender.js",
+        "name": "sendFrame",
+        "line": 378,
+        "count": 0
+      },
+      {
+        "self": 775,
+        "parent": 774,
+        "file": "_stream_writable.js",
+        "name": "Writable.uncork",
+        "line": 328,
+        "count": 0
+      },
+      {
+        "self": 776,
+        "parent": 775,
+        "file": "_stream_writable.js",
+        "name": "clearBuffer",
+        "line": 497,
+        "count": 0
+      },
+      {
+        "self": 777,
+        "parent": 776,
+        "file": "_stream_writable.js",
+        "name": "doWrite",
+        "line": 393,
+        "count": 0
+      },
+      {
+        "self": 778,
+        "parent": 777,
+        "file": "net.js",
+        "name": "Socket._writev",
+        "line": 792,
+        "count": 0
+      },
+      {
+        "self": 779,
+        "parent": 778,
+        "file": "net.js",
+        "name": "Socket._writeGeneric",
+        "line": 760,
+        "count": 0
+      },
+      {
+        "self": 780,
+        "parent": 779,
+        "file": "internal/stream_base_commons.js",
+        "name": "writevGeneric",
+        "line": 116,
+        "count": 0
+      },
+      {
+        "self": 781,
+        "parent": 780,
+        "file": "",
+        "name": "writev",
+        "line": 0,
+        "count": 1
+      },
+      {
+        "self": 782,
+        "parent": 745,
+        "file": "",
+        "name": "(garbage collector)",
+        "line": 0,
+        "count": 1
+      },
+      {
+        "self": 783,
+        "parent": 745,
+        "file": "zlib.js",
+        "name": "processCallback",
+        "line": 507,
+        "count": 0
+      },
+      {
+        "self": 784,
+        "parent": 783,
+        "file": "/project/node_modules/async-listener/glue.js",
+        "name": "",
+        "line": 162,
+        "count": 0
+      },
+      {
+        "self": 785,
+        "parent": 784,
+        "file": "_stream_transform.js",
+        "name": "afterTransform",
+        "line": 82,
+        "count": 0
+      },
+      {
+        "self": 786,
+        "parent": 785,
+        "file": "_stream_writable.js",
+        "name": "onwrite",
+        "line": 431,
+        "count": 0
+      },
+      {
+        "self": 787,
+        "parent": 786,
+        "file": "_stream_writable.js",
+        "name": "clearBuffer",
+        "line": 497,
+        "count": 0
+      },
+      {
+        "self": 788,
+        "parent": 787,
+        "file": "_stream_writable.js",
+        "name": "doWrite",
+        "line": 393,
+        "count": 0
+      },
+      {
+        "self": 789,
+        "parent": 788,
+        "file": "_stream_transform.js",
+        "name": "Transform._write",
+        "line": 169,
+        "count": 0
+      },
+      {
+        "self": 790,
+        "parent": 789,
+        "file": "_stream_transform.js",
+        "name": "Transform._read",
+        "line": 186,
+        "count": 0
+      },
+      {
+        "self": 791,
+        "parent": 790,
+        "file": "/project/node_modules/async-listener/index.js",
+        "name": "",
+        "line": 582,
+        "count": 0
+      },
+      {
+        "self": 792,
+        "parent": 791,
+        "file": "zlib.js",
+        "name": "ZlibBase._transform",
+        "line": 380,
+        "count": 0
+      },
+      {
+        "self": 793,
+        "parent": 792,
+        "file": "zlib.js",
+        "name": "processChunk",
+        "line": 487,
+        "count": 0
+      },
+      {
+        "self": 794,
+        "parent": 793,
+        "file": "",
+        "name": "write",
+        "line": 0,
+        "count": 1
+      },
+      {
+        "self": 795,
+        "parent": 745,
+        "file": "/project/node_modules/async-listener/glue.js",
+        "name": "",
+        "line": 162,
+        "count": 0
+      },
+      {
+        "self": 796,
+        "parent": 795,
+        "file": "net.js",
+        "name": "onconnection",
+        "line": 1527,
+        "count": 0
+      },
+      {
+        "self": 797,
+        "parent": 796,
+        "file": "net.js",
+        "name": "Socket",
+        "line": 264,
+        "count": 0
+      },
+      {
+        "self": 798,
+        "parent": 797,
+        "file": "net.js",
+        "name": "initSocketHandle",
+        "line": 235,
+        "count": 0
+      },
+      {
+        "self": 799,
+        "parent": 798,
+        "file": "",
+        "name": "set onread",
+        "line": 0,
+        "count": 1
+      }
+    ],
+    "time": 1604047176589
+  },
+  {
+    "date": 0,
+    "functions": [
+      {
+        "self": 800,
+        "parent": 0,
+        "file": "",
+        "name": "(root)",
+        "line": 0,
+        "count": 0
+      },
+      {
+        "self": 801,
+        "parent": 800,
+        "file": "",
+        "name": "(program)",
+        "line": 0,
+        "count": 2738
+      },
+      {
+        "self": 802,
+        "parent": 800,
+        "file": "internal/timers.js",
+        "name": "processTimers",
+        "line": 477,
+        "count": 1
+      },
+      {
+        "self": 803,
+        "parent": 802,
+        "file": "internal/process/task_queues.js",
+        "name": "runNextTicks",
+        "line": 60,
+        "count": 0
+      },
+      {
+        "self": 804,
+        "parent": 803,
+        "file": "internal/process/task_queues.js",
+        "name": "processTicksAndRejections",
+        "line": 69,
+        "count": 0
+      },
+      {
+        "self": 805,
+        "parent": 804,
+        "file": "/project/node_modules/async-listener/glue.js",
+        "name": "",
+        "line": 162,
+        "count": 0
+      },
+      {
+        "self": 806,
+        "parent": 805,
+        "file": "_stream_readable.js",
+        "name": "resume_",
+        "line": 979,
+        "count": 0
+      },
+      {
+        "self": 807,
+        "parent": 806,
+        "file": "_stream_readable.js",
+        "name": "Readable.read",
+        "line": 377,
+        "count": 0
+      },
+      {
+        "self": 808,
+        "parent": 807,
+        "file": "_stream_readable.js",
+        "name": "endReadable",
+        "line": 1204,
+        "count": 0
+      },
+      {
+        "self": 809,
+        "parent": 808,
+        "file": "/project/node_modules/async-listener/index.js",
+        "name": "",
+        "line": 626,
+        "count": 0
+      },
+      {
+        "self": 810,
+        "parent": 809,
+        "file": "/project/node_modules/async-listener/index.js",
+        "name": "fallback",
+        "line": 612,
+        "count": 0
+      },
+      {
+        "self": 811,
+        "parent": 810,
+        "file": "/project/node_modules/async-listener/glue.js",
+        "name": "wrapCallback",
+        "line": 391,
+        "count": 0
+      },
+      {
+        "self": 812,
+        "parent": 811,
+        "file": "/project/node_modules/async-listener/glue.js",
+        "name": "asyncWrap",
+        "line": 137,
+        "count": 1
+      },
+      {
+        "self": 813,
+        "parent": 802,
+        "file": "internal/timers.js",
+        "name": "listOnTimeout",
+        "line": 497,
+        "count": 2
+      },
+      {
+        "self": 814,
+        "parent": 813,
+        "file": "/project/node_modules/async-listener/glue.js",
+        "name": "",
+        "line": 162,
+        "count": 0
+      },
+      {
+        "self": 815,
+        "parent": 814,
+        "file": "/project/node_modules/appmetrics-dash/lib/appmetrics-dash.js",
+        "name": "emitData",
+        "line": 442,
+        "count": 0
+      },
+      {
+        "self": 816,
+        "parent": 815,
+        "file": "/project/node_modules/socket.io/lib/index.js",
+        "name": "Server.<computed>",
+        "line": 504,
+        "count": 0
+      },
+      {
+        "self": 817,
+        "parent": 816,
+        "file": "/project/node_modules/appmetrics/lib/aspect.js",
+        "name": "newFunc",
+        "line": 79,
+        "count": 0
+      },
+      {
+        "self": 818,
+        "parent": 817,
+        "file": "/project/node_modules/appmetrics/probes/socketio-probe.js",
+        "name": "",
+        "line": 50,
+        "count": 0
+      },
+      {
+        "self": 819,
+        "parent": 818,
+        "file": "/project/node_modules/appmetrics/probes/socketio-probe.js",
+        "name": "SocketioProbe.metricsEnd",
+        "line": 137,
+        "count": 0
+      },
+      {
+        "self": 820,
+        "parent": 819,
+        "file": "/project/node_modules/appmetrics/index.js",
+        "name": "module.exports.emit",
+        "line": 279,
+        "count": 0
+      },
+      {
+        "self": 821,
+        "parent": 820,
+        "file": "/project/node_modules/appmetrics/appmetrics-api.js",
+        "name": "API.raiseLocalEvent",
+        "line": 268,
+        "count": 0
+      },
+      {
+        "self": 822,
+        "parent": 821,
+        "file": "domain.js",
+        "name": "EventEmitter.emit",
+        "line": 471,
+        "count": 0
+      },
+      {
+        "self": 823,
+        "parent": 822,
+        "file": "events.js",
+        "name": "emit",
+        "line": 263,
+        "count": 1
+      },
+      {
+        "self": 824,
+        "parent": 817,
+        "file": "/project/node_modules/appmetrics/probes/socketio-probe.js",
+        "name": "",
+        "line": 46,
+        "count": 0
+      },
+      {
+        "self": 825,
+        "parent": 824,
+        "file": "/project/node_modules/appmetrics/lib/probe.js",
+        "name": "Probe.metricsStart",
+        "line": 62,
+        "count": 0
+      },
+      {
+        "self": 826,
+        "parent": 825,
+        "file": "/project/node_modules/appmetrics/lib/timer.js",
+        "name": "exports.start",
+        "line": 33,
+        "count": 0
+      },
+      {
+        "self": 827,
+        "parent": 826,
+        "file": "/project/node_modules/appmetrics/lib/timer.js",
+        "name": "Timer",
+        "line": 18,
+        "count": 1
+      },
+      {
+        "self": 828,
+        "parent": 814,
+        "file": "/project/user-app/app.js",
+        "name": "",
+        "line": 10,
+        "count": 0
+      },
+      {
+        "self": 829,
+        "parent": 828,
+        "file": "/project/node_modules/express/lib/response.js",
+        "name": "send",
+        "line": 107,
+        "count": 1
+      },
+      {
+        "self": 830,
+        "parent": 800,
+        "file": "_http_common.js",
+        "name": "parserOnHeadersComplete",
+        "line": 74,
+        "count": 0
+      },
+      {
+        "self": 831,
+        "parent": 830,
+        "file": "_http_server.js",
+        "name": "parserOnIncoming",
+        "line": 721,
+        "count": 0
+      },
+      {
+        "self": 832,
+        "parent": 831,
+        "file": "domain.js",
+        "name": "EventEmitter.emit",
+        "line": 471,
+        "count": 0
+      },
+      {
+        "self": 833,
+        "parent": 832,
+        "file": "events.js",
+        "name": "emit",
+        "line": 263,
+        "count": 0
+      },
+      {
+        "self": 834,
+        "parent": 833,
+        "file": "/project/node_modules/socket.io/lib/index.js",
+        "name": "",
+        "line": 336,
+        "count": 0
+      },
+      {
+        "self": 835,
+        "parent": 834,
+        "file": "/project/node_modules/appmetrics/lib/aspect.js",
+        "name": "args.<computed>",
+        "line": 25,
+        "count": 0
+      },
+      {
+        "self": 836,
+        "parent": 835,
+        "file": "/project/node_modules/ibmapm-embed/appmetrics-zipkin/lib/aspect.js",
+        "name": "args.<computed>",
+        "line": 26,
+        "count": 0
+      },
+      {
+        "self": 837,
+        "parent": 836,
+        "file": "/project/node_modules/engine.io/lib/server.js",
+        "name": "",
+        "line": 464,
+        "count": 0
+      },
+      {
+        "self": 838,
+        "parent": 837,
+        "file": "/project/node_modules/express/lib/express.js",
+        "name": "app",
+        "line": 38,
+        "count": 0
+      },
+      {
+        "self": 839,
+        "parent": 838,
+        "file": "/project/node_modules/express/lib/application.js",
+        "name": "handle",
+        "line": 158,
+        "count": 0
+      },
+      {
+        "self": 840,
+        "parent": 839,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "handle",
+        "line": 136,
+        "count": 0
+      },
+      {
+        "self": 841,
+        "parent": 840,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "next",
+        "line": 176,
+        "count": 0
+      },
+      {
+        "self": 842,
+        "parent": 841,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "process_params",
+        "line": 327,
+        "count": 0
+      },
+      {
+        "self": 843,
+        "parent": 842,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "",
+        "line": 275,
+        "count": 0
+      },
+      {
+        "self": 844,
+        "parent": 843,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "trim_prefix",
+        "line": 288,
+        "count": 0
+      },
+      {
+        "self": 845,
+        "parent": 844,
+        "file": "/project/node_modules/express/lib/router/layer.js",
+        "name": "handle",
+        "line": 86,
+        "count": 0
+      },
+      {
+        "self": 846,
+        "parent": 845,
+        "file": "/project/node_modules/express/lib/middleware/query.js",
+        "name": "query",
+        "line": 39,
+        "count": 0
+      },
+      {
+        "self": 847,
+        "parent": 846,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "next",
+        "line": 176,
+        "count": 0
+      },
+      {
+        "self": 848,
+        "parent": 847,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "process_params",
+        "line": 327,
+        "count": 0
+      },
+      {
+        "self": 849,
+        "parent": 848,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "",
+        "line": 275,
+        "count": 0
+      },
+      {
+        "self": 850,
+        "parent": 849,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "trim_prefix",
+        "line": 288,
+        "count": 0
+      },
+      {
+        "self": 851,
+        "parent": 850,
+        "file": "/project/node_modules/express/lib/router/layer.js",
+        "name": "handle",
+        "line": 86,
+        "count": 0
+      },
+      {
+        "self": 852,
+        "parent": 851,
+        "file": "/project/node_modules/express/lib/middleware/init.js",
+        "name": "expressInit",
+        "line": 29,
+        "count": 0
+      },
+      {
+        "self": 853,
+        "parent": 852,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "next",
+        "line": 176,
+        "count": 0
+      },
+      {
+        "self": 854,
+        "parent": 853,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "process_params",
+        "line": 327,
+        "count": 0
+      },
+      {
+        "self": 855,
+        "parent": 854,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "",
+        "line": 275,
+        "count": 0
+      },
+      {
+        "self": 856,
+        "parent": 855,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "trim_prefix",
+        "line": 288,
+        "count": 0
+      },
+      {
+        "self": 857,
+        "parent": 856,
+        "file": "/project/node_modules/express/lib/router/layer.js",
+        "name": "handle",
+        "line": 86,
+        "count": 0
+      },
+      {
+        "self": 858,
+        "parent": 857,
+        "file": "/project/server.js",
+        "name": "requestTimer",
+        "line": 16,
+        "count": 0
+      },
+      {
+        "self": 859,
+        "parent": 858,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "next",
+        "line": 176,
+        "count": 0
+      },
+      {
+        "self": 860,
+        "parent": 859,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "process_params",
+        "line": 327,
+        "count": 0
+      },
+      {
+        "self": 861,
+        "parent": 860,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "",
+        "line": 275,
+        "count": 0
+      },
+      {
+        "self": 862,
+        "parent": 861,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "trim_prefix",
+        "line": 288,
+        "count": 0
+      },
+      {
+        "self": 863,
+        "parent": 862,
+        "file": "/project/node_modules/express/lib/router/layer.js",
+        "name": "handle",
+        "line": 86,
+        "count": 0
+      },
+      {
+        "self": 864,
+        "parent": 863,
+        "file": "/project/node_modules/pino-http/logger.js",
+        "name": "loggingMiddleware",
+        "line": 83,
+        "count": 0
+      },
+      {
+        "self": 865,
+        "parent": 864,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "next",
+        "line": 176,
+        "count": 0
+      },
+      {
+        "self": 866,
+        "parent": 865,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "process_params",
+        "line": 327,
+        "count": 0
+      },
+      {
+        "self": 867,
+        "parent": 866,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "",
+        "line": 275,
+        "count": 0
+      },
+      {
+        "self": 868,
+        "parent": 867,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "trim_prefix",
+        "line": 288,
+        "count": 0
+      },
+      {
+        "self": 869,
+        "parent": 868,
+        "file": "/project/node_modules/express/lib/router/layer.js",
+        "name": "handle",
+        "line": 86,
+        "count": 0
+      },
+      {
+        "self": 870,
+        "parent": 869,
+        "file": "/project/node_modules/express/lib/application.js",
+        "name": "mounted_app",
+        "line": 228,
+        "count": 0
+      },
+      {
+        "self": 871,
+        "parent": 870,
+        "file": "/project/node_modules/express/lib/application.js",
+        "name": "handle",
+        "line": 158,
+        "count": 0
+      },
+      {
+        "self": 872,
+        "parent": 871,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "handle",
+        "line": 136,
+        "count": 0
+      },
+      {
+        "self": 873,
+        "parent": 872,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "next",
+        "line": 176,
+        "count": 0
+      },
+      {
+        "self": 874,
+        "parent": 873,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "process_params",
+        "line": 327,
+        "count": 0
+      },
+      {
+        "self": 875,
+        "parent": 874,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "",
+        "line": 275,
+        "count": 0
+      },
+      {
+        "self": 876,
+        "parent": 875,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "trim_prefix",
+        "line": 288,
+        "count": 0
+      },
+      {
+        "self": 877,
+        "parent": 876,
+        "file": "/project/node_modules/express/lib/router/layer.js",
+        "name": "handle",
+        "line": 86,
+        "count": 0
+      },
+      {
+        "self": 878,
+        "parent": 877,
+        "file": "/project/node_modules/express/lib/middleware/query.js",
+        "name": "query",
+        "line": 39,
+        "count": 0
+      },
+      {
+        "self": 879,
+        "parent": 878,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "next",
+        "line": 176,
+        "count": 0
+      },
+      {
+        "self": 880,
+        "parent": 879,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "process_params",
+        "line": 327,
+        "count": 0
+      },
+      {
+        "self": 881,
+        "parent": 880,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "",
+        "line": 275,
+        "count": 0
+      },
+      {
+        "self": 882,
+        "parent": 881,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "trim_prefix",
+        "line": 288,
+        "count": 0
+      },
+      {
+        "self": 883,
+        "parent": 882,
+        "file": "/project/node_modules/express/lib/router/layer.js",
+        "name": "handle",
+        "line": 86,
+        "count": 0
+      },
+      {
+        "self": 884,
+        "parent": 883,
+        "file": "/project/node_modules/express/lib/middleware/init.js",
+        "name": "expressInit",
+        "line": 29,
+        "count": 0
+      },
+      {
+        "self": 885,
+        "parent": 884,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "next",
+        "line": 176,
+        "count": 0
+      },
+      {
+        "self": 886,
+        "parent": 885,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "process_params",
+        "line": 327,
+        "count": 0
+      },
+      {
+        "self": 887,
+        "parent": 886,
+        "file": "/project/node_modules/express/lib/router/index.js",
+        "name": "",
+        "line": 275,
+        "count": 0
+      },
+      {
+        "self": 888,
+        "parent": 887,
+        "file": "/project/node_modules/express/lib/router/layer.js",
+        "name": "handle",
+        "line": 86,
+        "count": 0
+      },
+      {
+        "self": 889,
+        "parent": 888,
+        "file": "/project/node_modules/express/lib/router/route.js",
+        "name": "dispatch",
+        "line": 98,
+        "count": 0
+      },
+      {
+        "self": 890,
+        "parent": 889,
+        "file": "/project/node_modules/express/lib/router/route.js",
+        "name": "next",
+        "line": 114,
+        "count": 0
+      },
+      {
+        "self": 891,
+        "parent": 890,
+        "file": "/project/node_modules/express/lib/router/layer.js",
+        "name": "handle",
+        "line": 86,
+        "count": 0
+      },
+      {
+        "self": 892,
+        "parent": 891,
+        "file": "/project/user-app/app.js",
+        "name": "",
+        "line": 6,
+        "count": 0
+      },
+      {
+        "self": 893,
+        "parent": 892,
+        "file": "/project/node_modules/pino/lib/tools.js",
+        "name": "LOG",
+        "line": 30,
+        "count": 1
+      },
+      {
+        "self": 894,
+        "parent": 892,
+        "file": "/project/node_modules/async-listener/index.js",
+        "name": "",
+        "line": 650,
+        "count": 0
+      },
+      {
+        "self": 895,
+        "parent": 894,
+        "file": "/project/node_modules/async-listener/index.js",
+        "name": "fallback",
+        "line": 612,
+        "count": 0
+      },
+      {
+        "self": 896,
+        "parent": 895,
+        "file": "timers.js",
+        "name": "setTimeout",
+        "line": 120,
+        "count": 0
+      },
+      {
+        "self": 897,
+        "parent": 896,
+        "file": "internal/timers.js",
+        "name": "insert",
+        "line": 340,
+        "count": 1
+      },
+      {
+        "self": 898,
+        "parent": 835,
+        "file": "/project/node_modules/appmetrics/probes/http-probe.js",
+        "name": "",
+        "line": 42,
+        "count": 0
+      },
+      {
+        "self": 899,
+        "parent": 898,
+        "file": "/project/node_modules/appmetrics/probes/http-probe.js",
+        "name": "HttpProbe.filterUrl",
+        "line": 77,
+        "count": 0
+      },
+      {
+        "self": 900,
+        "parent": 899,
+        "file": "/project/node_modules/appmetrics/probes/http-probe.js",
+        "name": "parse",
+        "line": 66,
+        "count": 1
+      },
+      {
+        "self": 901,
+        "parent": 800,
+        "file": "internal/process/task_queues.js",
+        "name": "processTicksAndRejections",
+        "line": 69,
+        "count": 1
+      },
+      {
+        "self": 902,
+        "parent": 901,
+        "file": "/project/node_modules/async-listener/glue.js",
+        "name": "",
+        "line": 162,
+        "count": 0
+      },
+      {
+        "self": 903,
+        "parent": 902,
+        "file": "_stream_writable.js",
+        "name": "callFinal",
+        "line": 608,
+        "count": 0
+      },
+      {
+        "self": 904,
+        "parent": 903,
+        "file": "net.js",
+        "name": "Socket._final",
+        "line": 401,
+        "count": 0
+      },
+      {
+        "self": 905,
+        "parent": 904,
+        "file": "",
+        "name": "shutdown",
+        "line": 0,
+        "count": 1
+      },
+      {
+        "self": 906,
+        "parent": 902,
+        "file": "_stream_writable.js",
+        "name": "afterWriteTick",
+        "line": 475,
+        "count": 0
+      },
+      {
+        "self": 907,
+        "parent": 906,
+        "file": "_stream_writable.js",
+        "name": "afterWrite",
+        "line": 480,
+        "count": 0
+      },
+      {
+        "self": 908,
+        "parent": 907,
+        "file": "_stream_writable.js",
+        "name": "onCorkedFinish",
+        "line": 667,
+        "count": 0
+      },
+      {
+        "self": 909,
+        "parent": 908,
+        "file": "/project/node_modules/engine.io/lib/transports/websocket.js",
+        "name": "onEnd",
+        "line": 117,
+        "count": 0
+      },
+      {
+        "self": 910,
+        "parent": 909,
+        "file": "domain.js",
+        "name": "EventEmitter.emit",
+        "line": 471,
+        "count": 0
+      },
+      {
+        "self": 911,
+        "parent": 910,
+        "file": "events.js",
+        "name": "emit",
+        "line": 263,
+        "count": 0
+      },
+      {
+        "self": 912,
+        "parent": 911,
+        "file": "/project/node_modules/engine.io/lib/socket.js",
+        "name": "Socket.flush",
+        "line": 416,
+        "count": 0
+      },
+      {
+        "self": 913,
+        "parent": 912,
+        "file": "/project/node_modules/engine.io/lib/transports/websocket.js",
+        "name": "WebSocket.send",
+        "line": 89,
+        "count": 0
+      },
+      {
+        "self": 914,
+        "parent": 913,
+        "file": "/project/node_modules/engine.io-parser/lib/index.js",
+        "name": "exports.encodePacket",
+        "line": 55,
+        "count": 0
+      },
+      {
+        "self": 915,
+        "parent": 914,
+        "file": "/project/node_modules/engine.io/lib/transports/websocket.js",
+        "name": "send",
+        "line": 97,
+        "count": 0
+      },
+      {
+        "self": 916,
+        "parent": 915,
+        "file": "/project/node_modules/ws/lib/websocket.js",
+        "name": "send",
+        "line": 326,
+        "count": 0
+      },
+      {
+        "self": 917,
+        "parent": 916,
+        "file": "/project/node_modules/ws/lib/sender.js",
+        "name": "send",
+        "line": 252,
+        "count": 0
+      },
+      {
+        "self": 918,
+        "parent": 917,
+        "file": "/project/node_modules/ws/lib/sender.js",
+        "name": "dispatch",
+        "line": 313,
+        "count": 0
+      },
+      {
+        "self": 919,
+        "parent": 918,
+        "file": "/project/node_modules/ws/lib/permessage-deflate.js",
+        "name": "compress",
+        "line": 319,
+        "count": 0
+      },
+      {
+        "self": 920,
+        "parent": 919,
+        "file": "/project/node_modules/ws/lib/limiter.js",
+        "name": "add",
+        "line": 32,
+        "count": 0
+      },
+      {
+        "self": 921,
+        "parent": 920,
+        "file": "/project/node_modules/ws/lib/limiter.js",
+        "name": "",
+        "line": 42,
+        "count": 0
+      },
+      {
+        "self": 922,
+        "parent": 921,
+        "file": "/project/node_modules/ws/lib/permessage-deflate.js",
+        "name": "",
+        "line": 320,
+        "count": 0
+      },
+      {
+        "self": 923,
+        "parent": 922,
+        "file": "/project/node_modules/ws/lib/permessage-deflate.js",
+        "name": "_compress",
+        "line": 397,
+        "count": 0
+      },
+      {
+        "self": 924,
+        "parent": 923,
+        "file": "_stream_writable.js",
+        "name": "Writable.write",
+        "line": 291,
+        "count": 0
+      },
+      {
+        "self": 925,
+        "parent": 924,
+        "file": "_stream_writable.js",
+        "name": "writeOrBuffer",
+        "line": 355,
+        "count": 0
+      },
+      {
+        "self": 926,
+        "parent": 925,
+        "file": "_stream_writable.js",
+        "name": "doWrite",
+        "line": 393,
+        "count": 0
+      },
+      {
+        "self": 927,
+        "parent": 926,
+        "file": "_stream_transform.js",
+        "name": "Transform._write",
+        "line": 169,
+        "count": 0
+      },
+      {
+        "self": 928,
+        "parent": 927,
+        "file": "_stream_transform.js",
+        "name": "Transform._read",
+        "line": 186,
+        "count": 1
+      },
+      {
+        "self": 929,
+        "parent": 918,
+        "file": "/project/node_modules/ws/lib/sender.js",
+        "name": "sendFrame",
+        "line": 378,
+        "count": 0
+      },
+      {
+        "self": 930,
+        "parent": 929,
+        "file": "_stream_writable.js",
+        "name": "Writable.uncork",
+        "line": 328,
+        "count": 0
+      },
+      {
+        "self": 931,
+        "parent": 930,
+        "file": "_stream_writable.js",
+        "name": "clearBuffer",
+        "line": 497,
+        "count": 0
+      },
+      {
+        "self": 932,
+        "parent": 931,
+        "file": "_stream_writable.js",
+        "name": "doWrite",
+        "line": 393,
+        "count": 0
+      },
+      {
+        "self": 933,
+        "parent": 932,
+        "file": "net.js",
+        "name": "Socket._writev",
+        "line": 792,
+        "count": 0
+      },
+      {
+        "self": 934,
+        "parent": 933,
+        "file": "net.js",
+        "name": "Socket._writeGeneric",
+        "line": 760,
+        "count": 0
+      },
+      {
+        "self": 935,
+        "parent": 934,
+        "file": "internal/stream_base_commons.js",
+        "name": "writevGeneric",
+        "line": 116,
+        "count": 0
+      },
+      {
+        "self": 936,
+        "parent": 935,
+        "file": "",
+        "name": "writev",
+        "line": 0,
+        "count": 1
+      },
+      {
+        "self": 937,
+        "parent": 902,
+        "file": "_stream_readable.js",
+        "name": "endReadableNT",
+        "line": 1214,
+        "count": 0
+      },
+      {
+        "self": 938,
+        "parent": 937,
+        "file": "domain.js",
+        "name": "EventEmitter.emit",
+        "line": 471,
+        "count": 0
+      },
+      {
+        "self": 939,
+        "parent": 938,
+        "file": "events.js",
+        "name": "emit",
+        "line": 263,
+        "count": 0
+      },
+      {
+        "self": 940,
+        "parent": 939,
+        "file": "net.js",
+        "name": "onReadableStreamEnd",
+        "line": 629,
+        "count": 0
+      },
+      {
+        "self": 941,
+        "parent": 940,
+        "file": "internal/streams/destroy.js",
+        "name": "destroy",
+        "line": 5,
+        "count": 0
+      },
+      {
+        "self": 942,
+        "parent": 941,
+        "file": "net.js",
+        "name": "Socket._destroy",
+        "line": 652,
+        "count": 0
+      },
+      {
+        "self": 943,
+        "parent": 942,
+        "file": "",
+        "name": "close",
+        "line": 0,
+        "count": 1
+      },
+      {
+        "self": 944,
+        "parent": 800,
+        "file": "/project/node_modules/appmetrics/appmetrics-api.js",
+        "name": "events",
+        "line": 238,
+        "count": 0
+      },
+      {
+        "self": 945,
+        "parent": 944,
+        "file": "/project/node_modules/appmetrics/appmetrics-api.js",
+        "name": "raiseEvent",
+        "line": 32,
+        "count": 0
+      },
+      {
+        "self": 946,
+        "parent": 945,
+        "file": "/project/node_modules/appmetrics/appmetrics-api.js",
+        "name": "formatProfiling",
+        "line": 180,
+        "count": 0
+      },
+      {
+        "self": 947,
+        "parent": 946,
+        "file": "domain.js",
+        "name": "EventEmitter.emit",
+        "line": 471,
+        "count": 0
+      },
+      {
+        "self": 948,
+        "parent": 947,
+        "file": "events.js",
+        "name": "emit",
+        "line": 263,
+        "count": 0
+      },
+      {
+        "self": 949,
+        "parent": 948,
+        "file": "/project/node_modules/appmetrics-dash/lib/appmetrics-dash.js",
+        "name": "",
+        "line": 277,
+        "count": 0
+      },
+      {
+        "self": 950,
+        "parent": 949,
+        "file": "/project/node_modules/socket.io/lib/index.js",
+        "name": "Server.<computed>",
+        "line": 504,
+        "count": 0
+      },
+      {
+        "self": 951,
+        "parent": 950,
+        "file": "/project/node_modules/appmetrics/lib/aspect.js",
+        "name": "newFunc",
+        "line": 79,
+        "count": 0
+      },
+      {
+        "self": 952,
+        "parent": 951,
+        "file": "/project/node_modules/socket.io/lib/namespace.js",
+        "name": "Namespace.emit",
+        "line": 211,
+        "count": 0
+      },
+      {
+        "self": 953,
+        "parent": 952,
+        "file": "/project/node_modules/socket.io-adapter/index.js",
+        "name": "Adapter.broadcast",
+        "line": 122,
+        "count": 0
+      },
+      {
+        "self": 954,
+        "parent": 953,
+        "file": "/project/node_modules/socket.io-parser/index.js",
+        "name": "Encoder.encode",
+        "line": 128,
+        "count": 0
+      },
+      {
+        "self": 955,
+        "parent": 954,
+        "file": "/project/node_modules/socket.io-adapter/index.js",
+        "name": "",
+        "line": 136,
+        "count": 0
+      },
+      {
+        "self": 956,
+        "parent": 955,
+        "file": "/project/node_modules/socket.io/lib/socket.js",
+        "name": "Socket.packet",
+        "line": 220,
+        "count": 0
+      },
+      {
+        "self": 957,
+        "parent": 956,
+        "file": "/project/node_modules/socket.io/lib/client.js",
+        "name": "Client.packet",
+        "line": 162,
+        "count": 0
+      },
+      {
+        "self": 958,
+        "parent": 957,
+        "file": "/project/node_modules/socket.io/lib/client.js",
+        "name": "writeToEngine",
+        "line": 167,
+        "count": 0
+      },
+      {
+        "self": 959,
+        "parent": 958,
+        "file": "/project/node_modules/engine.io/lib/socket.js",
+        "name": "Socket.send.Socket.write",
+        "line": 366,
+        "count": 0
+      },
+      {
+        "self": 960,
+        "parent": 959,
+        "file": "/project/node_modules/engine.io/lib/socket.js",
+        "name": "Socket.sendPacket",
+        "line": 380,
+        "count": 0
+      },
+      {
+        "self": 961,
+        "parent": 960,
+        "file": "/project/node_modules/engine.io/lib/socket.js",
+        "name": "Socket.flush",
+        "line": 416,
+        "count": 0
+      },
+      {
+        "self": 962,
+        "parent": 961,
+        "file": "/project/node_modules/engine.io/lib/transports/websocket.js",
+        "name": "WebSocket.send",
+        "line": 89,
+        "count": 0
+      },
+      {
+        "self": 963,
+        "parent": 962,
+        "file": "/project/node_modules/engine.io-parser/lib/index.js",
+        "name": "exports.encodePacket",
+        "line": 55,
+        "count": 0
+      },
+      {
+        "self": 964,
+        "parent": 963,
+        "file": "/project/node_modules/engine.io/lib/transports/websocket.js",
+        "name": "send",
+        "line": 97,
+        "count": 0
+      },
+      {
+        "self": 965,
+        "parent": 964,
+        "file": "/project/node_modules/ws/lib/websocket.js",
+        "name": "send",
+        "line": 326,
+        "count": 0
+      },
+      {
+        "self": 966,
+        "parent": 965,
+        "file": "/project/node_modules/ws/lib/sender.js",
+        "name": "send",
+        "line": 252,
+        "count": 0
+      },
+      {
+        "self": 967,
+        "parent": 966,
+        "file": "/project/node_modules/ws/lib/sender.js",
+        "name": "dispatch",
+        "line": 313,
+        "count": 0
+      },
+      {
+        "self": 968,
+        "parent": 967,
+        "file": "/project/node_modules/ws/lib/permessage-deflate.js",
+        "name": "compress",
+        "line": 319,
+        "count": 0
+      },
+      {
+        "self": 969,
+        "parent": 968,
+        "file": "/project/node_modules/ws/lib/limiter.js",
+        "name": "add",
+        "line": 32,
+        "count": 0
+      },
+      {
+        "self": 970,
+        "parent": 969,
+        "file": "/project/node_modules/ws/lib/limiter.js",
+        "name": "",
+        "line": 42,
+        "count": 0
+      },
+      {
+        "self": 971,
+        "parent": 970,
+        "file": "/project/node_modules/ws/lib/permessage-deflate.js",
+        "name": "",
+        "line": 320,
+        "count": 1
+      },
+      {
+        "self": 972,
+        "parent": 800,
+        "file": "zlib.js",
+        "name": "processCallback",
+        "line": 507,
+        "count": 0
+      },
+      {
+        "self": 973,
+        "parent": 972,
+        "file": "/project/node_modules/async-listener/glue.js",
+        "name": "",
+        "line": 162,
+        "count": 0
+      },
+      {
+        "self": 974,
+        "parent": 973,
+        "file": "_stream_transform.js",
+        "name": "afterTransform",
+        "line": 82,
+        "count": 0
+      },
+      {
+        "self": 975,
+        "parent": 974,
+        "file": "_stream_writable.js",
+        "name": "onwrite",
+        "line": 431,
+        "count": 0
+      },
+      {
+        "self": 976,
+        "parent": 975,
+        "file": "_stream_writable.js",
+        "name": "afterWrite",
+        "line": 480,
+        "count": 0
+      },
+      {
+        "self": 977,
+        "parent": 976,
+        "file": "/project/node_modules/ws/lib/permessage-deflate.js",
+        "name": "",
+        "line": 428,
+        "count": 0
+      },
+      {
+        "self": 978,
+        "parent": 977,
+        "file": "/project/node_modules/ws/lib/permessage-deflate.js",
+        "name": "",
+        "line": 321,
+        "count": 0
+      },
+      {
+        "self": 979,
+        "parent": 978,
+        "file": "/project/node_modules/ws/lib/sender.js",
+        "name": "",
+        "line": 322,
+        "count": 0
+      },
+      {
+        "self": 980,
+        "parent": 979,
+        "file": "/project/node_modules/ws/lib/sender.js",
+        "name": "sendFrame",
+        "line": 378,
+        "count": 0
+      },
+      {
+        "self": 981,
+        "parent": 980,
+        "file": "_stream_writable.js",
+        "name": "Writable.uncork",
+        "line": 328,
+        "count": 0
+      },
+      {
+        "self": 982,
+        "parent": 981,
+        "file": "_stream_writable.js",
+        "name": "clearBuffer",
+        "line": 497,
+        "count": 0
+      },
+      {
+        "self": 983,
+        "parent": 982,
+        "file": "_stream_writable.js",
+        "name": "doWrite",
+        "line": 393,
+        "count": 0
+      },
+      {
+        "self": 984,
+        "parent": 983,
+        "file": "net.js",
+        "name": "Socket._writev",
+        "line": 792,
+        "count": 0
+      },
+      {
+        "self": 985,
+        "parent": 984,
+        "file": "net.js",
+        "name": "Socket._writeGeneric",
+        "line": 760,
+        "count": 0
+      },
+      {
+        "self": 986,
+        "parent": 985,
+        "file": "internal/stream_base_commons.js",
+        "name": "writevGeneric",
+        "line": 116,
+        "count": 0
+      },
+      {
+        "self": 987,
+        "parent": 986,
+        "file": "internal/stream_base_commons.js",
+        "name": "afterWriteDispatched",
+        "line": 149,
+        "count": 0
+      },
+      {
+        "self": 988,
+        "parent": 987,
+        "file": "_stream_writable.js",
+        "name": "onwrite",
+        "line": 431,
+        "count": 1
+      },
+      {
+        "self": 989,
+        "parent": 986,
+        "file": "",
+        "name": "writev",
+        "line": 0,
+        "count": 1
+      },
+      {
+        "self": 990,
+        "parent": 800,
+        "file": "",
+        "name": "(garbage collector)",
+        "line": 0,
+        "count": 1
+      }
+    ],
+    "time": 1604047181589
+  }
+]
